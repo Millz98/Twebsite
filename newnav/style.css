@@ -29,7 +29,9 @@ header {
     
 }
 
-
+p {
+    text-align: center;
+}
 
 h1 {
     cursor: pointer;
