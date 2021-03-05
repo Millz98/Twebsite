@@ -99,6 +99,7 @@ a:hover {
     min-width: 60px;
     height: 60px;
     background: #fff;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
