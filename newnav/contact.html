@@ -5,9 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact US!</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylea.css">
     </head>
+    <style>
+        body {
+            background-image: url('website background (plain).png');
+            background-repeat: no-repeat;
+            background-attachment: local;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    
     <body>
+        <header>
+            <a class="navbar-brand" href="/">
+                <div class="logo-image">
+                    <img src="circle-tran.png" class="img-fluid">
+                </div>
+            </a>
+            <nav>
+                <a href="http://127.0.0.1:5500/newnav/index.html">Home</a>
+                <a href="http://127.0.0.1:5500/newnav/about.html">About Me</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
     <section class="contact">
         <div class="content">
         <h2>Contact Us</h2>
@@ -16,27 +40,50 @@
             <div class="container">
              <div class="contactInfo">
                  <div class="box">
-                     <div class="icon"></div>
+                     <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                     </div>
                      <div class="text">
                          <h3>Address</h3>
-                         <p>107 Mcintyre St,<br>Regina,Saskatchewan,<br>S4R 2L5</p>
+                         <p>69 that one street St,<br>Regina, Saskatchewan,<br>S4R 2L5</p>
                      </div>
                  </div>
                  <div class="box">
-                    <div class="icon"></div>
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
                     <div class="text">
                         <h3>Phone</h3>
-                        <p>306-450-6118</p>
+                        <p>306-912-3456</p>
                     </div>
                 </div>
                 <div class="box">
-                    <div class="icon"></div>
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
                     <div class="text">
                         <h3>Email</h3>
-                        <p>project6six@gmail.com</p>
+                        <p>myfirstemail@gmail.com</p>
                     </div>
              </div>
         </div>
-    </section>    
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <textarea required="required"></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
