@@ -32,7 +32,7 @@ header {
 }
 /* The code to center text in exactly the center of the page. */
 .fb-page {
-    left: 30%;
+    left: 15%;
     line-height: 200px;
     margin-top: 100px;
     position: absolute;
@@ -41,14 +41,7 @@ header {
     width: 65%;
 }
 
-.twitter-timeline {
-    left: 40%;
-    line-height: 100px;
-    margin-top: 100px;
-    position: relative;
-    top: 30%;
-    width: 65%;
-}
+
 
 h1 {
     cursor: pointer;
