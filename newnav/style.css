@@ -42,11 +42,10 @@ header {
 }
 
 .twitter-timeline {
-    left: 40%
+    left: 40%;
     line-height: 100px;
     margin-top: 100px;
     position: relative;
-    text-align: center;
     top: 30%;
     width: 65%;
 }
