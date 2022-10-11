@@ -71,6 +71,7 @@ a:hover {
 }
 .contact .content p
 {
+    text-align: center;
     font-weight: 300;
     color: #fff;
 }
