@@ -212,7 +212,7 @@ a:hover {
 .social-icon {
     transition: transform 0.3s ease; /* Add transition for smooth scaling */
 }
-  
+
 .social-icon:hover {
     transform: scale(1.2); /* Scale the icon to 1.2 times its original size on hover */
 }
